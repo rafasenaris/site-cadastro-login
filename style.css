@@ -14,19 +14,24 @@
 body{
     display: grid;
     place-items: center;
+    justify-content: center;
+    align-content: center;
     width: 100%;
     height: 100vh;
     background-color: var(--cor-fundo);
     font-family: var(--fonte-principal);
 
-    & #titulo-cadastro{
+    & #titulo-cadastro, #titulo-login{
         font-family: var(--fonte-principal);
         color: var(--cor-fonte);
+        margin-bottom: 100px;
     }
+
+
 
 }
 
-#cadastro{
+#cadastro,#login{
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -40,7 +45,7 @@ body{
         padding-left: var(--placeholder-margin);
     }
 
-    & #entrar{
+    & #cadastrar, #entrar{
         height: 40px;
         border-radius: 5px;
         margin-bottom: 10px;
