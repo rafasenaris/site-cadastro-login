@@ -45,7 +45,7 @@ function fazerLogin(){
     const usuarioEncontrado = bancoUsuarios.find(user => user.usuario === usuarioLogin && user.senha === senhaLogin);
 
     if(usuarioEncontrado){
-            alert("sucesso você fez Login");
+            window.location.replace("index.html");
     }else{
             alert("Usuário ou senha incorretos");
     }
