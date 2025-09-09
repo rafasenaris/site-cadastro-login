@@ -66,3 +66,18 @@ body{
     }
 
 }
+
+@media (max-width: 576px) {
+    #cadastro,
+    #login {
+        width: 90%;  
+        max-width: 350px; 
+    }
+
+    #titulo-cadastro, 
+    #titulo-login {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
